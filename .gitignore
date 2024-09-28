@@ -3,3 +3,4 @@ bin/app
 tmp/build-errors.log
 tmp/main
 views/*/*.txt
+*_templ.go
