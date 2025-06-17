@@ -2,7 +2,7 @@ FROM golang:1.23.1-bullseye as builder
 
 WORKDIR /app
 
-RUN go install github.com/a-h/templ/cmd/templ@latest
+RUN go install github.com/a-h/templ/cmd/templ@v0.2.778
 
 COPY go.mod go.sum ./
 
