@@ -61,7 +61,7 @@ templ Index() {
 					<section id="about" class="mb-12 scroll-mt-16">
 						<h2 class="text-2xl font-bold mb-4">About</h2>
 						<p class="text-gray-700 dark:text-gray-300 ">
-							Hi, I'm Rohan Prabhu. I am a graduate from MIT Manipal where I studied computer engineering. Ever since I was young, I have been fascinated by computers and technology. After graduation, I have been working as a full stack developer with a focus on back-end development. I am particularly skilled in GoLang and have been using it to assist in building NuCash, a neobank for the genz. In my free time, I enjoy exploring new technologies and staying up-to-date on the latest industry trends. I exhibit an entrepreneurial mentality, and am eager to learn and adapt to different environments.
+							Hi, I'm Rohan Prabhu. I am a graduate from MIT Manipal where I studied computer engineering. Ever since I was young, I have been fascinated by computers and technology. After graduation, I have been working as a full stack developer with a focus on back-end development. I am particularly skilled in GoLang and have experience building scalable systems for fintech and security platforms. Currently, I work as a Founding Software Engineer at StepSecurity, where I'm focused on building secure, scalable backend systems for runtime security and agent platforms. In my free time, I enjoy exploring new technologies and staying up-to-date on the latest industry trends. I exhibit an entrepreneurial mentality, and am eager to learn and adapt to different environments.
 						</p>
 						<p class="text-gray-700 dark:text-gray-300 mb-4">
 							My extra-curricular includes Video Editing, Photography and Film Making.
@@ -116,14 +116,31 @@ templ Index() {
 								</svg>
 								Flutter
 							</div>
+							<div class="bg-gray-100 dark:bg-gray-800 p-3 rounded flex items-center"><i class="fab fa-microsoft mr-2 text-blue-500"></i>Azure</div>
+							<div class="bg-gray-100 dark:bg-gray-800 p-3 rounded flex items-center"><i class="fab fa-github mr-2 text-gray-800 dark:text-white"></i>GitHub Actions</div>
+							<div class="bg-gray-100 dark:bg-gray-800 p-3 rounded flex items-center"><i class="fab fa-gitlab mr-2 text-orange-500"></i>GitLab Pipelines</div>
+							<div class="bg-gray-100 dark:bg-gray-800 p-3 rounded flex items-center"><i class="fab fa-microsoft mr-2 text-blue-600"></i>Azure DevOps</div>
+							<div class="bg-gray-100 dark:bg-gray-800 p-3 rounded flex items-center"><i class="fas fa-shield-alt mr-2 text-green-600"></i>eBPF</div>
 						</div>
 					</section>
 					<section id="experience" class="mb-12 scroll-mt-16">
 						<h2 class="text-2xl font-bold mb-4">Experience</h2>
 						<div class="space-y-6">
 							<div class="bg-gray-50 dark:bg-gray-800 p-6 rounded">
+								<h3 class="text-xl font-semibold mb-2">Founding Software Engineer</h3>
+								<p class="text-gray-600 dark:text-gray-400 mb-2">StepSecurity <a href="https://stepsecurity.io" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline"><i class="fas fa-external-link-alt "></i></a> | Dec 2024 - Present</p>
+								<p class="text-gray-500 font-semibold dark:text-gray-400 mb-2">Technologies : GoLang, AWS Lambda, eBPF, Tetragon, Kubernetes, GitHub Actions, Terraform, Helm</p>
+								<ul class="list-disc list-inside text-gray-700 dark:text-gray-300">
+									<li>Designed and implemented scalable backend APIs and AWS Lambda functions for StepSecurity's agent and runtime security platform.</li>
+									<li>Automated deployment, testing, and benchmarking processes by building CI/CD pipelines with GitHub Actions, Terraform, and Helm, reducing deployment time by over 40% and improving release reliability.</li>
+									<li>Developed eBPF/Tetragon-based monitoring and detection workflows for real-time security visibility.</li>
+									<li>Delivered customer-facing log export and telemetry pipelines, integrating with Amazon S3, allowing users to access and analyze their security data on-demand, leading to a 30% reduction in support queries related to data exports.</li>
+									<li>Strengthened infrastructure security through IAM role policies, Kubernetes security contexts, and tamper detection mechanisms.</li>
+								</ul>
+							</div>
+							<div class="bg-gray-50 dark:bg-gray-800 p-6 rounded">
 								<h3 class="text-xl font-semibold mb-2">Lead Backend and Infra Engineer</h3>
-								<p class="text-gray-600 dark:text-gray-400 mb-2">NuCash <a href="https://nucash.money" class="text-blue-600 dark:text-blue-400 hover:underline"><i class="fas fa-external-link-alt "></i></a> | Oct 2022 - Present</p>
+								<p class="text-gray-600 dark:text-gray-400 mb-2">NuCash <a href="https://nucash.money" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline"><i class="fas fa-external-link-alt "></i></a> | Oct 2022 - Nov 2024</p>
 								<p class="text-gray-500 font-semibold dark:text-gray-400 mb-2">Technologies : GoLang, Python, Postgres, AWS, Kubernetes, Docker, Jenkins, Signoz</p>
 								<ul class="list-disc list-inside text-gray-700 dark:text-gray-300">
 									<li>Led a 5-member product development team, enhancing collaboration, code quality, and delivering a scalable lending system architecture while integrating with banking partners for compliance.</li>
@@ -133,7 +150,7 @@ templ Index() {
 							</div>
 							<div class="bg-gray-50 dark:bg-gray-800 p-6 rounded">
 								<h3 class="text-xl font-semibold mb-2">Backend Developer</h3>
-								<p class="text-gray-600 dark:text-gray-400 mb-2">Kreate <a href="https://kreateworld.in" class="text-blue-600 dark:text-blue-400 hover:underline"><i class="fas fa-external-link-alt "></i></a> | Dec 2021 - Sept 2022</p>
+								<p class="text-gray-600 dark:text-gray-400 mb-2">Kreate <a href="https://kreateworld.in" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline"><i class="fas fa-external-link-alt "></i></a> | Dec 2021 - Sept 2022</p>
 								<p class="text-gray-500 font-semibold dark:text-gray-400 mb-2">Technologies : GoLang, Postgres, Flutter</p>
 								<ul class="list-disc list-inside text-gray-700 dark:text-gray-300">
 									<li>Developed and restructured REST APIs for the Kreate app, ensuring consistent responses and decoupling of underlying layers.</li>
@@ -145,7 +162,7 @@ templ Index() {
 							</div>
 							<div class="bg-gray-50 dark:bg-gray-800 p-6 rounded">
 								<h3 class="text-xl font-semibold mb-2">Member of Technical Staff</h3>
-								<p class="text-gray-600 dark:text-gray-400 mb-2">Manipal Dot Net <a href="https://manipal.net" class="text-blue-600 dark:text-blue-400 hover:underline"><i class="fas fa-external-link-alt "></i></a> | Jan 2020 - Dec 2021</p>
+								<p class="text-gray-600 dark:text-gray-400 mb-2">Manipal Dot Net <a href="https://manipal.net" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline"><i class="fas fa-external-link-alt "></i></a> | Jan 2020 - Dec 2021</p>
 								<p class="text-gray-500 font-semibold dark:text-gray-400 mb-2">Technologies : Flutter, SAP, PHP, SQL</p>
 								<ul class="list-disc list-inside text-gray-700 dark:text-gray-300">
 									<li>Provided technical leadership overseeing end-to-end development, from planning and design to production delivery, including debugging, testing, and deployment.</li>
