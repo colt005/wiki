@@ -8,3 +8,4 @@ This is a personal portfolio website built using Golang, HTML, Tailwindcss and T
 - Golang: Backend language used to serve pages and handle requests.
 - Templ: A Go-based templating engine that simplifies rendering views.
 
+ 
